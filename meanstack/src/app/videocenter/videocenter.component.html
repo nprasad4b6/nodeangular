@@ -1,0 +1,8 @@
+<div>
+    <app-video-details  [video]="selectedVideoFromChild"></app-video-details>
+</div>
+<div>
+    <app-video-list (selectedVideo)="eventFromChild($event)"  [videos]="videos"></app-video-list> 
+</div>
+
+
